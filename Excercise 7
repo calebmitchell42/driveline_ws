@@ -1,0 +1,14 @@
+
+a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+even = []
+odd = []
+
+for i in a:
+    if i % 2 == 0:
+        even.append(i)
+    elif i % 2 != 0:
+        odd.append(i)
+    
+print(even)
+print(odd)

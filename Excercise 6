@@ -1,0 +1,13 @@
+
+
+
+def palindrom():
+    word = str(input("Enter a word: "))
+    for i in word:
+        if i[0:] == i[-1:]:
+            print('This word is a palindrom')
+        elif i[0:] != i[-1:]:
+            print('this word is not a palidrom')
+    return
+
+palindrom()
